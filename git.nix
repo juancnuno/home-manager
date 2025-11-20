@@ -1,0 +1,23 @@
+{ pkgs, ... }:
+
+{
+  programs.git = {
+    enable = true;
+
+    settings = {
+      credential."https://github.com/".helper = [
+        ""
+        "!${pkgs.gh}/bin/gh auth git-credential"
+      ];
+
+      diff.tool = "meld";
+      difftool.prompt = false;
+      init.defaultBranch = "main";
+
+      user = {
+        email = "juancnuno@gmail.com";
+        name = "Juan C Nuno";
+      };
+    };
+  };
+}
