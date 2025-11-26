@@ -6,7 +6,6 @@
     ./git.nix
     ./neovim.nix
     ./userDirs.nix
-    ./vim.nix
     ./vscode.nix
   ];
 
