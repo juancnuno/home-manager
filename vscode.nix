@@ -12,6 +12,7 @@
         100
       ];
 
+      "editor.stickyScroll.enabled" = false;
       "files.trimTrailingWhitespace" = true;
       "jdk.telemetry.enabled" = true;
       "window.menuStyle" = "custom";
