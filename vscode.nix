@@ -3,6 +3,7 @@
     enable = true;
 
     profiles.default.userSettings = {
+      "breadcrumbs.enabled" = false;
       "chat.disableAIFeatures" = true;
       "editor.cursorBlinking" = "solid";
       "editor.minimap.enabled" = false;
