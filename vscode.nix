@@ -5,6 +5,7 @@
     profiles.default.userSettings = {
       "chat.disableAIFeatures" = true;
       "editor.cursorBlinking" = "solid";
+      "editor.minimap.enabled" = false;
 
       "editor.rulers" = [
         100
