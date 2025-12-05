@@ -7,4 +7,9 @@
 
     ripgrep.enable = true;
   };
+
+  xdg.desktopEntries.nvim = {
+    name = "";
+    settings.Hidden = "true";
+  };
 }
