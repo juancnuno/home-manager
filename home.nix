@@ -4,6 +4,7 @@
   imports = [
     ./bash.nix
     ./git.nix
+    ./google-chrome.nix
     ./neovim.nix
     ./userDirs.nix
     ./vscode.nix
