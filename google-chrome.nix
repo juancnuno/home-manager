@@ -5,9 +5,10 @@
 
   xdg.desktopEntries = {
     "com.google.Chrome" = {
-      exec = "${pkgs.google-chrome}/bin/google-chrome-stable --class=com.google.Chrome";
+      exec = "${pkgs.google-chrome}/bin/google-chrome-stable";
       icon = "google-chrome";
       name = "Google Chrome";
+      settings.StartupWMClass = "google-chrome";
     };
 
     google-chrome = {
